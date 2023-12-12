@@ -1,21 +1,4 @@
-@font-face {
-  font-family: "ABCDiatypeRounded";
-  src:
-    local("ABCDiatypeRounded-Black-Trial.woff"),
-    url("ABCDiatypeRounded-Black-Trial.woff") format("woff");
-}
-@font-face {
-  font-family: "ABCMarist";
-  src:
-    local("ABCMarist-Book-Trial.woff"),
-    url("ABCMarist-Book-Trial.woff") format("woff");
-}
-@font-face {
-  font-family: "ABCMaristItalic";
-  src:
-    local("ABCMarist-BookItalic-Trial.woff"),
-    url("ABCMarist-BookItalic-Trial.woff") format("woff");
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Spectral:ital@0;1&display=swap');
 
 body{
   background-color:/*#004225*/ #3B5249 ;
@@ -23,22 +6,24 @@ body{
   margin-left: 25%;
   margin-right: 25%;
   font-size: large;
-  font-family: 'ABCMarist';
+  font-family: 'Spectral', serif;
+  font-weight: 300;
+  line-height: 125%;
 }
 h1{
   color: #F5F5DC; /* I am trying cosmic latte, the original color is F5F5DC*/
-  font-family: 'ABCDiatypeRounded';
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 1%;
 }
 h3{
   color: #F5F5DC; /*TRUE COLOR : F5F5DC*/
-  font-family: 'ABCDiatypeRounded';
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 1%;
 }
 p{
   color: #FFCF9D;
   margin-bottom: 1%;
-  font-family: 'ABCMarist';
+  font-family: 'Spectral', serif;
 }
 hr{
   border: 1px solid #FFCF9D;
@@ -47,7 +32,7 @@ hr{
 }
 li{
   color: #FFCF9D;
-  font-family: 'ABCMarist';
+  font-family: 'Spectral', serif;
 }
 /* unvisited link, visited link, mouse over link, selected link*/
 a:link, a:visited, a:active  {
@@ -61,5 +46,5 @@ a:hover {
   text-decoration: underline;
   font-style: normal;
   font-weight: bolder;
-  font-family: 'ABCMarist';
+  font-family: 'Spectral', serif;
 }
