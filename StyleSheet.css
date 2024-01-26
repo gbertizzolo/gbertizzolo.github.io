@@ -3,20 +3,21 @@
 body{
   background-color:/*#004225*/ #3B5249 ;
   margin-top: 5%;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 10%;
+  margin-right: 10%;
   font-size: large;
   font-family: 'Spectral', serif;
   font-weight: 300;
   line-height: 125%;
 }
 h1{
-  color: #F5F5DC; /* I am trying cosmic latte, the original color is F5F5DC*/
+  color: #F5F5DC;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 1%;
+  line-height: 2em; /*For mobile*/
 }
 h3{
-  color: #F5F5DC; /*TRUE COLOR : F5F5DC*/
+  color: #F5F5DC; 
   font-family: 'Poppins', sans-serif;
   margin-bottom: 1%;
 }
@@ -41,10 +42,32 @@ a:link, a:visited, a:active  {
   font-style: normal;
   font-weight: bold;
 }
-a:hover {
-  color: #FFB000;
-  text-decoration: underline;
-  font-style: normal;
-  font-weight: bolder;
-  font-family: 'Spectral', serif;
+
+@media (min-width: 576px) {
+  body {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  a:hover {
+    color: #FFB000;
+    text-decoration: underline;
+    /*font-style: normal;*/
+    font-weight: bold;
+    /*font-family: 'Spectral', serif;*/
+  }
+
+}
+
+@media (min-width: 992px) {
+  body {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
 }
